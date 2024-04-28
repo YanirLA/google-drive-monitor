@@ -53,5 +53,12 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 
 # ToDo's
 * add an option to ignore files in the Trash
-* more precise Exceptions handling 
+* more precise Exceptions handling
+
+# Attack surfaces general ideas
+ideas the not tested or checked, just general ideas.
+* drives.hide - lets you hide a drive from the default view, maybe we can copy private files to this drive with different permissions for the files while stay unnoticible
+*  file revisions - maybe there is a way to hide malicious content in a file revision
+*  replies / comments - maybe there is an XSS exploit in the content field (it uses html to show the content)
+
   
