@@ -51,9 +51,6 @@ pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-
 * for any unknown exception try to delete the ```token.json``` and run again
 * After a file is being changed to private, its considered as a new file for the next run because the modification time is greater then last check time. But nothing will happen in the next run because its already private.
 
-# ToDo's
-* add an option to ignore files in the Trash
-* more precise Exceptions handling
 
 # Attack surfaces general ideas
 ideas the not tested or checked, just general ideas.
@@ -61,4 +58,6 @@ ideas the not tested or checked, just general ideas.
 *  file revisions - maybe there is a way to hide malicious content in a file revision
 *  replies / comments - maybe there is an XSS exploit in the content field (it uses html to show the content)
 
-  
+# ToDo's
+* add an option to ignore files in the Trash
+* more precise Exceptions handling 
